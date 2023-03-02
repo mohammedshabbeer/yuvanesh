@@ -1,0 +1,190 @@
+.rec {
+    width: 100%;
+    height: 528px;
+    left: 0px;
+    top: 199px;
+
+    background: #FCF7F1;
+}
+
+.vec1 {
+    position: absolute;
+    left: -1.74%;
+    right: -4.24%;
+    top: -3.36%;
+    bottom: 92.4%;
+
+    background: #D59415;
+}
+
+.exlbl {
+    position: absolute;
+    width: 819px;
+    height: 42px;
+    left: 310px;
+    top: 291px;
+
+    font-family: 'Rota', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    /* or 64px */
+    color: #000000;
+}
+
+.nLbl {
+    position: absolute;
+    width: 575px;
+    height: 58px;
+    left: 432px;
+    top: 369px;
+
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.sBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+
+    position: absolute;
+    width: 181px;
+    height: 58px;
+    left: 629px;
+    top: 463px;
+
+    background: #FAB516;
+    border: 1px solid #FAB516;
+    border-radius: 8px;
+}
+
+.signLbl {
+    width: 98px;
+    height: 20px;
+
+    font-family: 'Rota', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+
+    /* identical to box height, or 62% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #4F3084;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.areLbl {
+    position: absolute;
+    width: 261px;
+    height: 30px;
+    left: 589px;
+    top: 584px;
+
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.linkLbl {
+    position: absolute;
+    width: 180px;
+    height: 25px;
+    left: 629px;
+    top: 624px;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+
+    color: #4F3084;
+}
+
+.yTri1 {
+    position: absolute;
+    left: 997.6px;
+    top: 438px;
+    width: 63.3px;
+    height: 57.21px;
+    transform: rotate(6.58deg);
+}
+
+.yTri2 {
+    position: absolute;
+    left: 988.51px;
+    top: 499.06px;
+    width: 51.66px;
+    height: 30.59px;
+    transform: rotate(6.58deg);
+}
+
+.bTri1 {
+    position: absolute;
+    width: 57.96px;
+    height: 52.39px;
+    top: 443px;
+    left: 1227.14px;
+    /* transform: matrix(-0.93, 0.36, 0.36, 0.93, 0, 0); */
+}
+
+.bTri2 {
+    position: absolute;
+    height: 28.01643922855685px;
+    width: 47.30374491637158px;
+    left: 1249.0667724609375px;
+    top: 495.1036682128906px;
+    border-radius: 0px;
+    /* transform: matrix(-0.93, 0.36, 0.36, 0.93, 0, 0); */
+}
+
+.vLbl {
+    position: absolute;
+    height: 53.7557865654701px;
+    width: 124.92121047514523px;
+    left: 1094.40px;
+    top: 537.7262649536133px;
+        
+}
+
+.starG {
+    position: absolute;
+    height: 30.996396827987123px;
+    width: 30.422391704560752px;
+    left: 1140.4248046875px;
+    top: 548.3694229125977px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12);
+}
