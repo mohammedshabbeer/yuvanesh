@@ -8,11 +8,11 @@ function Header(){
 
     return(
         <>     
-        <AppBar position='static' sx={{backgroundColor:'white', boxShadow:'0px 0px 0px 0px'}} >  
+        <AppBar position='static' sx={{backgroundColor:'white', boxShadow:'0px 0px 0px 0px', width:'100%'}} >  
         <Stack > 
         <Stack className="head" direction='row'   alignItems='center' justifyContent='space-between' >
             <img src={logo} className='logo' />
-            <Stack direction='row' spacing={3} alignItems='center' sx={{marginTop:'15px'}}>
+            <Stack direction='row' spacing={2} alignItems='center' sx={{marginTop:'15px'}}>
                 <label className="lbl" >About us</label>
                 <label className="lbl" >Spin & Win</label>
                 <label className="lbl">Rating</label>

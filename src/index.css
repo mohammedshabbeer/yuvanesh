@@ -1,10 +1,30 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto','Gloria Hallelujah', 'Oxygen','rota-bold',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','lexend','rota'
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'lexend';
+  src: url('../assets/fonts/Lexend-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'rota';
+  src: url('../assets/fonts/Rota-Regular.otf');
+}
+
+@font-face {
+  font-family: 'rota-bold';
+  src: url('../assets/fonts/Rota-ExtraBlack.otf');
+}
+
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  src: url('../assets/fonts/GloriaHallelujah-Regular.ttf');
 }
 
 code {
