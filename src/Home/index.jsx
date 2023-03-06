@@ -275,7 +275,7 @@ function Home() {
                     </Stack>
                 </>
             }
-            <Footer />
+           <Footer /> 
         </>
     )
 }

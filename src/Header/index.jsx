@@ -4,9 +4,11 @@ import logo from '../icons/extraaLogo.png'
 import slidemenu from '../icons/menu.png'
 import { Stack } from "@mui/system";
 import { AppBar, useMediaQuery } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
     const matches = useMediaQuery('(max-width:600px)');
+    const nav=useNavigate()
 
     return (
         <>
@@ -23,14 +25,14 @@ function Header() {
                 <AppBar position='static' sx={{ backgroundColor: 'white', boxShadow: '0px 0px 0px 0px', width: '100%' }} >
                     <Stack >
                         <Stack className="head" direction='row' alignItems='center' justifyContent='space-between' >
-                            <img src={logo} className='logo' />
+                            <img src={logo} className='logo' onClick={()=>{nav('/')}} />
                             <Stack direction='row' spacing={2} alignItems='center' sx={{ marginTop: '15px' }}>
-                                <label className="lbl" >About us</label>
-                                <label className="lbl" >Spin & Win</label>
-                                <label className="lbl">Rating</label>
-                                <label className="lbl">Products</label>
-                                <label className="lbl">Gift Cards</label>
-                                <label className="lbl">Contact us</label>
+                                <label className="lbl" onClick={()=>{nav('/aboutus')}} >About us</label>
+                                <label className="lbl" onClick={()=>{nav('/spinandwin')}} >Spin & Win</label>
+                                <label className="lbl" onClick={()=>{nav('/rating')}} >Rating</label>
+                                <label className="lbl" onClick={()=>{nav('/products')}} >Products</label>
+                                <label className="lbl" onClick={()=>{nav('/giftcards')}} >Gift Cards</label>
+                                <label className="lbl" onClick={()=>{nav('/contact')}} >Contact us</label>
                                 <button className="logBtn">
                                     <label className="logLbl">Login</label>
                                 </button>

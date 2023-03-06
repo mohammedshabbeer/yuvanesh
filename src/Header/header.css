@@ -27,8 +27,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-
     color: #000000;
+    cursor: pointer;
 }
 
 .logo {
@@ -36,6 +36,7 @@
     height: 57px;
     margin-left: 40px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
