@@ -1,90 +1,91 @@
-.main{
-width: 100%;
-height: 420px;
-background: #FAB516;
-text-align: center;
+.main {
+    width: 100%;
+    height: 420px;
+    background: #FAB516;
+    text-align: center;
 }
 
-.lo{
+.lo {
     height: 75px;
-width: 180px;
-margin-top: 30px;
+    width: 180px;
+    margin-top: 30px;
 }
 
-.divider{
-width: 1160px;
-height: 0px;
-border: 4px solid rgba(0, 0, 0, 0.13);
-border-radius: 5px;
-margin-top: 17px;
+.divider {
+    width: 1160px;
+    height: 0px;
+    border: 4px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    margin-top: 17px;
 }
 
-.signCo{
-font-family: 'Rota';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 30px;
+.signCo {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
 
-color: #000000;
+    color: #000000;
 }
 
-.sigBtn{
+.sigBtn {
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 6px 12px;
-gap: 8px;
-width: 82px;
-height: 32px;
-background: #4F3084;
-border-radius: 12px;
-border: 1px solid #4F3084;
-}
-
-.joinBtn{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
     width: 82px;
-    height: 32px;;
-background: #FAB516;
-border: 3px solid #4F3084;
-border-radius: 12px;
+    height: 32px;
+    background: #4F3084;
+    border-radius: 12px;
+    border: 1px solid #4F3084;
 }
 
-.joinLb{
+.joinBtn {
+    width: 82px;
+    height: 32px;
+    ;
+    background: #FAB516;
+    border: 3px solid #4F3084;
+    border-radius: 12px;
+}
+
+.joinLb {
     width: 60px;
-height: 20px;
-font-family: 'Rota';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-/* identical to box height, or 125% */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.1px;
-color: #4F3084;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-left: 2px;
+    height: 20px;
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #4F3084;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 2px;
 }
 
-.aboutLbl{
-width: 97.19px;
-height: 17.36px;
+.aboutLbl {
+    width: 97.19px;
+    height: 17.36px;
 
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 15px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
 
-color: #000000;
+    color: #000000;
 }
 
-.sigLbl{
+.sigLbl {
     width: 52px;
     height: 20px;
     font-family: 'Rota';
@@ -95,15 +96,14 @@ color: #000000;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.1px; 
+    letter-spacing: 0.1px;
     color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
-.phLbl{
-    
+.phLbl {
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 300;
@@ -113,7 +113,7 @@ color: #000000;
     color: #000000;
 }
 
-.loc{
+.loc {
     position: absolute;
     width: 4.15px;
     height: 4.75px;
@@ -123,16 +123,139 @@ color: #000000;
     top: 4px;
 }
 
-.lastLbl{
-width: 351px;
-height: 23px;
-font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 151%;
-/* or 18px */
-text-align: center;
+.lastLbl {
+    width: 351px;
+    height: 23px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 151%;
+    /* or 18px */
+    text-align: center;
 
-color: #000000;
+    color: #000000;
+}
+
+@media (max-width: 600px) {
+    .main {
+        height: 380px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lo {
+        height: 30.1px;
+        width: 70px;
+        margin-top: 18px;
+    }
+
+    .wantLbl {
+        width: 70px;
+        height: 26px;
+
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #000000;
+    }
+
+    .jBtn {
+        width: 82px;
+        height: 30px;
+        background: #FAB516;
+        border: 3px solid #4F3084;
+        border-radius: 20px;
+    }
+
+    .signBtn {
+        width: 82px;
+        height: 30px;
+        background: #4F3084;
+        border: 3px solid #4F3084;
+        border-radius: 20px;
+    }
+
+    .jLbl {
+        width: 45px;
+        height: 20px;
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #4F3084;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .loc {
+        position: absolute;
+        width: 3.15px;
+        height: 3.75px;
+        border: 2px solid #4F3084;
+        border-radius: 50px;
+        right: 135.5px;
+        top: 4px;
+    }
+
+    .siLbl {
+        width: 45px;
+        height: 20px;
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .divider {
+        width: 95%;
+        height: 0px;
+        border: 2px solid rgba(0, 0, 0, 0.13);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .aLbl {
+        width: 97.19px;
+        height: 17.36px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .phLbl {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 151%;
+        /* or 18px */
+        color: #000000;
+    }
 }
