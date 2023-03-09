@@ -2,8 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Home from './Home';
-
-import Aboutus from './About-us';
+import Aboutus, { Caro } from './About-us';
 import { Route, Router, Routes } from 'react-router-dom';
 import Footer from './Footer';
 import Products from './Products';

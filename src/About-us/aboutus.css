@@ -1,0 +1,217 @@
+.expara {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 89px;
+    text-align: center;
+    color: #000000;
+}
+
+.expara1 {
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.dotlogo {
+    width: 14px;
+    height: 186px;
+    padding-left: 728px;
+    padding-top: 44px;
+    padding-bottom: 6px;
+}
+
+.expara2 {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.expara3 {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 65px;
+    text-align: center;
+}
+
+
+/* .mainlogo {
+    width: 100%;
+    height: 350.24px
+}*/
+.whoisextra {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 167px;
+    color: #000000;
+    padding-left: 544px;
+    padding-top: 57px;
+}
+
+.productlogo {
+    width: 928px;
+    height: 879px;
+    background-repeat: no-repeat;
+    padding-left: 271px;
+    padding-bottom: 50px;
+}
+
+.bglogo {
+    width: 177.98px;
+    height: 177.98px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 23px;
+    margin-bottom: 5px;
+}
+
+.amazonlogo {
+    width: 135.14px;
+    height: 72.08px;
+    background: url(images/amazonlogo.png);
+    margin: 20px;
+}
+
+.wowlogo {
+    width: 135.14px;
+    height: 72.08px;
+    background: url(images/wowlogo.png);
+    margin: 20px;
+}
+
+.flipkartlogo {
+    width: 135.14px;
+    height: 121.08px;
+    background: url(images/flipkartlogo.png);
+    margin: 20px;
+}
+
+.vwlogo {
+    width: 139.14px;
+    height: 99.08px;
+    background: url(images/vwlogo.png);
+    margin: 20px;
+}
+
+.chailogo {
+    width: 145.14px;
+    height: 156.08px;
+    background: url(images/chailogo.png);
+    margin: 13px;
+}
+
+.myntralogo {
+    width: 145.14px;
+    height: 124.08px;
+    background: url(images/myntralogo.png);
+    margin: 13px;
+}
+
+.naturalslogo {
+    width: 145.14px;
+    height: 156.08px;
+    background: url(images/naturalslogo.png);
+    margin: 13px;
+}
+
+.mclogo {
+    width: 103.72px;
+    height: 101.81px;
+    background: url(images/mclogo.png);
+    margin: 31px;
+}
+
+.tonilogo {
+    width: 103.72px;
+    height: 101.81px;
+    background: url(images/tonilogo.png);
+    margin: 40px;
+}
+
+.phnmainlogo {
+    width: 100%;
+    height: 111px;
+}
+
+.phnexpara {
+    height: 33px;
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.phnexpara1 {
+    Height: 59px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.phndotlogo {
+    width: 14px;
+    height: 159px;
+    padding-left: 191px;
+    padding-top: 20px;
+}
+
+.phnexpara2 {
+    font-family: 'Gloria Hallelujah';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    padding-top: 7px;
+}
+
+.phnexpara3 {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.phnwhoisextra {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    padding-top: 43px;
+    padding-left: 30px;
+}
+.phnproductlogo{
+    align-items: center;
+    padding-bottom: 23px;
+}
