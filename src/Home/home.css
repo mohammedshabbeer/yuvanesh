@@ -457,7 +457,7 @@
     top: -266px;
     left: -14px;
     height: 100px;
-    width: 410px;
+    width: 100%;
 }
 
 .hand2 {
@@ -812,7 +812,7 @@
 
 @media (max-width: 600px) {
     .everLbl {
-        width: 194px;
+        
         height: 23px;
         font-family: 'Rota';
         font-style: normal;
@@ -823,7 +823,7 @@
     }
 
     .extraLbl {
-        width: 109px;
+       
         height: 26px;
         font-family: 'Rota';
         font-style: normal;
@@ -835,7 +835,7 @@
 
     .gpPh1 {
         height: 300px;
-        width: 389.91015625px;
+        width: 100%;
     }
 
     .urFav {
@@ -852,8 +852,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 6px 12px;
-        gap: 8px;
+        /* gap: 8px; */
         width: 86px;
         height: 34px;
         background: #FAB516;
@@ -896,7 +895,7 @@
         line-height: 15px;
         text-decoration-line: underline;
         color: #4F3084;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
     .Ymain {
@@ -906,33 +905,32 @@
         margin-top: 54px;
         position: relative;
         margin-right: 16px;
-        display: flex;
     }
 
     .grp {
         position: relative;
-        width: 360px;
-        height: 475px;
-        left: 0px;
-        top: -175px;
+        width: 225px;
+        height: 260px;
+        /* left: 0px; */
+        top: -52px;
     }
 
     .p2 {
-        position: absolute;
+        /* position: absolute; */
         font-family: 'Rota';
         font-weight: 700;
-        font-size: 35px;
+        font-size: 24px;
         line-height: 30px;
         color: #E5E5E5;
-        left: 250px;
-        top: -15px;
+        /* left: 250px;
+        top: -15px; */
     }
 
     .pP1 {
-        position: absolute;
+        /* position: absolute; */
         height: 50px;
-        left: 250px;
-        top: 120px;
+        /* left: 250px;
+        top: 120px; */
 
         font-family: 'Rota';
         font-style: normal;
@@ -1005,18 +1003,22 @@
     .takesImg {
         height: 55.146934509277344px;
         width: 110.764892578125px;
+        position: relative;
+        left: 40px;
     }
 
     .ph3 {
         height: 114.53512573242188px;
         width: 59.8087043762207px;
+        position: relative;
+        left: 45px;
     }
 
     .gp4 {
         position: relative;
         height: 41.77352523803711px;
         width: 150.95594787597656px;
-        left: -103px;
+        left: -53px;
         top: -45.936279296875px;
     }
 
