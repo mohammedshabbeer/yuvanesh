@@ -83,6 +83,7 @@
     line-height: 15px;
 
     color: #000000;
+    cursor: pointer;
 }
 
 .sigLbl {
@@ -151,7 +152,6 @@
     }
 
     .wantLbl {
-        width: 70px;
         height: 26px;
 
         font-family: 'Rota';
@@ -247,6 +247,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
+        cursor: pointer;
     }
 
     .phLbl {

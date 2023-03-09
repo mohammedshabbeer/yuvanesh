@@ -55,10 +55,10 @@ function Home() {
                             <label className="everLbl">Everybody loves a little</label>
                             <label className="extraLbl">extraa!</label>
                         </Stack>
-                        <Stack direction='row-reverse' >
+                        <Stack direction='row' >
                             <img src={groupPh1} className='gpPh1' />
                         </Stack>
-                        <Stack spacing={10} direction='row' alignItems='center' justifyContent='space-between' sx={{ marginLeft: '16px', marginRight:'16px' }}>
+                        <Stack  direction='row' alignItems='center' justifyContent='space-between' sx={{ marginLeft: '16px', marginRight:'16px' }}>
                             <p className="urFav">Get the best deals from your
                                 <br></br> favourite brands across the
                                 <br></br> world - with extraa!</p>
@@ -70,19 +70,17 @@ function Home() {
                             <span className="arelbl">aRe yOu a cUsToMer? </span>
                             <span className="linklbl">Click here for coupons </span>
                         </Stack>
-                        <Stack className="Ymain" direction='row' >
+                        <Stack className="Ymain" spacing={2} direction='row' justifyContent='space-between'>
                             <img src={group2} className='grp'></img>
-                            <Stack >
-                                <Stack>
+                            <Stack spacing={2} alignItems='center'>
                                     <p className="p2">How does<br></br>
                                         <span style={{ color: ' #4F3084' }}>extraa</span> <br></br>
-                                        work?</p>
-                                </Stack>
+                                        work?<br></br>
                                 <p className="pP1">When you shop at a store and leave
                                     <br></br>  <span className="bold1">your feedback</span> with extraa, we give
                                     <br></br>you  <span className="bold1"> cool coupons</span> that you can
                                     <br></br>actually use.
-                                </p>
+                                </p></p>
                             </Stack>
                         </Stack>
                         <Stack direction='row' spacing={5} style={{marginLeft:'16px', marginTop:'40px', height:'200px'}}>
@@ -99,13 +97,13 @@ function Home() {
                                 <span className='trylbl'>Try it!</span>
                             </Stack>
                         </Stack>
-                        <Stack direction='row' style={{marginLeft:'16px'}} justifyContent='space-between'>
-                            <Stack sx={{marginLeft:'80px'}}>
+                        <Stack direction='row' justifyContent='space-between'>
+                            <Stack sx={{marginLeft:'50px'}}>
                                 <img src={group3} className='takesImg' />
                                 <img src={ph3} className='ph3' />
                                 <img src={group4} className='gp4' />
                             </Stack>
-                            <Stack spacing={2}>
+                            <Stack spacing={2} sx={{ width:'50%'}}>
                             <label className="stepLb">Step 2</label>
                                 <p className="scanLbl">Give
                                 <br></br>feedback</p>
@@ -114,7 +112,7 @@ function Home() {
                                 <br></br> out</p>
                             </Stack>
                         </Stack>
-                        <Stack direction='row' spacing={10} style={{marginLeft:'16px'}}>
+                        <Stack direction='row' spacing={10} justifyContent='space-between' style={{marginLeft:'16px'}}>
                         <Stack spacing={2}>
                                 <label className="stepLb">Step 3</label>
                                 <p className="scanLbl">Register
@@ -127,11 +125,11 @@ function Home() {
                                 <img src={arrow6} className='arr6'/>
                             </Stack>
                         </Stack>
-                        <Stack direction='row' spacing={5} style={{marginLeft:'16px', marginBottom:'37px'}}>
+                        <Stack direction='row' spacing={1} style={{marginLeft:'16px', marginBottom:'37px'}} justifyContent='space-between'>
                         <Stack>
                                 <img src={group5} className='group5' />
                             </Stack>
-                            <Stack spacing={2}>
+                            <Stack spacing={2} sx={{width:'50%'}}>
                             <label className="stepLb">Step 4</label>
                                 <p className="scanLbl">Get your
                                 <br></br>coupons!</p>
@@ -218,7 +216,7 @@ function Home() {
                                             <br></br> favourite brands
                                             <br></br> hear you out</p>
                                     </Stack>
-                                    <Stack >
+                                    <Stack>
                                         <img src={phBack} className="pBack"></img>
                                         <img src={ph1} className='ph1'></img>
 

@@ -8,9 +8,11 @@ import mail from '../icons/mail.png'
 import location from '../icons/location.png'
 import './footer.css'
 import { Stack } from '@mui/system'
+import { useNavigate } from 'react-router-dom'
 
 function Footer() {
     const matches = useMediaQuery('(max-width:600px)');
+    const nav=useNavigate()
     return (
         <>
             {matches ?
@@ -20,14 +22,14 @@ function Footer() {
                             <img src={logo} className='lo'></img>
                         </div>
                         <Stack direction='row' spacing={2} sx={{ marginTop: '26px', marginLeft: '16px', marginRight:'16px' }} alignItems='center' justifyContent='space-evenly'>
-                            <Stack direction='row' spacing={3} alignItems='center' justifyContent='space-between'>
+                            <Stack direction='row' spacing={1}  alignItems='center' justifyContent='space-between'>
                                 <p className='wantLbl'>Want to be a
                                     <br></br> Partner?</p>
                                 <button className='jBtn' >
                                     <span className='jLbl'>Join now</span>
                                 </button>
                             </Stack>
-                            <Stack direction='row' spacing={3} alignItems='center' justifyContent='space-between'>
+                            <Stack direction='row' spacing={1} alignItems='center' justifyContent='space-between'>
                                 <p className='wantLbl'>Sign up here
                                     <br></br>for coupons?</p>
                                 <button className='signBtn' >
@@ -40,12 +42,12 @@ function Footer() {
                         </div>
                         <Stack direction='row' alignItems='center' justifyContent='space-evenly'>
                             <Stack spacing={1} alignItems='center'>
-                                <label className='aLbl'>about us</label>
-                                <label className='aLbl'>Scan & Win</label>
-                                <label className='aLbl'>Ratings</label>
-                                <label className='aLbl'>Products</label>
-                                <label className='aLbl'>Gift Cards</label>
-                                <label className='aLbl'>Contact us</label>
+                                <label className='aLbl' onClick={()=>{nav('/aboutus')}}>about us</label>
+                                <label className='aLbl' onClick={()=>{nav('/spinandwin')}}>Scan & Win</label>
+                                <label className='aLbl' onClick={()=>{nav('/rating')}}>Ratings</label>
+                                <label className='aLbl' onClick={()=>{nav('/products')}}>Products</label>
+                                <label className='aLbl' onClick={()=>{nav('/giftcards')}}>Gift Cards</label>
+                                <label className='aLbl' onClick={()=>{nav('/contact')}}>Contact us</label>
                             </Stack>
                             <Stack spacing={2}>
                             <Stack direction='row' spacing={2} >
@@ -104,12 +106,12 @@ function Footer() {
                         </Stack>
                     </Stack>
                     <Stack direction='row' justifyContent='center' sx={{ marginTop: '52px' }}>
-                        <label className='aboutLbl'>about us</label>
-                        <label className='aboutLbl'>Scan & Win</label>
-                        <label className='aboutLbl'>Ratings</label>
-                        <label className='aboutLbl'>Products</label>
-                        <label className='aboutLbl'>Gift Cards</label>
-                        <label className='aboutLbl'>Contact us</label>
+                        <label className='aboutLbl' onClick={()=>{nav('/aboutus')}} >about us</label>
+                        <label className='aboutLbl' onClick={()=>{nav('/spinandwin')}}>Scan & Win</label>
+                        <label className='aboutLbl' onClick={()=>{nav('/rating')}}>Ratings</label>
+                        <label className='aboutLbl' onClick={()=>{nav('/products')}}>Products</label>
+                        <label className='aboutLbl' onClick={()=>{nav('/giftcards')}}>Gift Cards</label>
+                        <label className='aboutLbl' onClick={()=>{nav('/contact')}}>Contact us</label>
                     </Stack>
                     <Stack direction='row' justifyContent='center' spacing={5} sx={{ marginTop: '36px' }}>
                         <Stack direction='row' spacing={2} >

@@ -1,0 +1,592 @@
+.tolbl {
+    height: 68px;
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 88px;
+    color: #000000;
+}
+
+.whelbl {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 151%;
+    color: #000000;
+}
+
+.joinbtn {
+    width: 225px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px solid #49454F;
+    border-radius: 20px;
+}
+
+.joinl {
+
+    height: 20px;
+
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    /* identical to box height, or 49% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-left: 50px;
+
+    /* M3/sys/light/on-surface-variant */
+
+    color: #49454F;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.grp6 {
+    height: 550.8838500976562px;
+    width: 680.8630981445312px;
+}
+
+.brect {
+    width: 100%;
+    height: 240px;
+    background: #4F3084;
+}
+
+.grp7 {
+    height: 326.240479px;
+    width: 679.8941650390625px;
+    position: relative;
+    top: -43px;
+    left: -0px;
+}
+
+.prolbl {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    color: #FFFFFF;
+}
+
+.extlbl {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: relative;
+    top: -100px;
+}
+
+.yrect {
+    height: 130px;
+    width: 100%;
+    background: #FAB516;
+    cursor: pointer;
+}
+
+.Extlbl {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 51px;
+    color: #000000;
+}
+
+.lincss {
+    width: 85%;
+    height: 0px;
+    border: 3px solid rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.yourlbl {
+    font-family: 'Gloria Hallelujah';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.sub {
+    height: 5.883824348449707px;
+    width: 21px;
+}
+
+.addimg {
+    width: 21px;
+    height: 21px;
+}
+
+.conBg {
+    height: 490px;
+    width: 100%;
+    background: rgba(79, 48, 132, 0.1);
+}
+
+.grp8 {
+    height: 296.6563720703125px;
+    width: 40%;
+}
+
+.grp8lbl {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.listlbl {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.pplbl {
+
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 88px;
+
+    color: #000000;
+    margin-left: 140px;
+    margin-top: 78px;
+}
+
+.tblHead {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.tbllbl {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 150px;
+}
+
+.finlbl {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 51px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.carview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 75px;
+    cursor: pointer;
+}
+
+.subsBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+
+    width: 121px;
+    height: 40px;
+
+    background: #4F3084;
+    border: 1px solid #4F3084;
+    border-radius: 100px;
+}
+
+.subslbl {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
+}
+
+.cardlbl1 {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 24px;
+    /* identical to box height, or 67% */
+    letter-spacing: 0.5px;
+    color: #000000;
+
+}
+
+.cardlbl2 {
+    font-family: 'Rota';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #040404;
+
+    margin-left: 30px;
+}
+
+.cardlbl3 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+    letter-spacing: 0.25px;
+
+    /* M3/sys/light/on-surface-variant */
+
+    color: #49454F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.tbllbl1 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.wroimg {
+    height: 33px;
+    width: 33px;
+}
+
+.corrimg {
+    height: 29px;
+    width: 39px;
+}
+
+@media (max-width: 600px) {
+    .tolbl {
+        height: 45px;
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+
+        color: #000000;
+    }
+
+    .whelbl {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 151%;
+        /* or 15px */
+        color: #000000;
+    }
+
+    .joinbtn {
+        width: 80px;
+        height: 30px;
+        background-color: #ffffff;
+        border: 2px solid #49454F;
+        border-radius: 20px;
+    }
+
+    .joinll {
+
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        /* identical to box height, or 167% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1px;
+        margin-left: 10px;
+
+        /* M3/sys/light/on-surface-variant */
+
+        color: #49454F;
+    }
+
+    .grp12 {
+        width: 50%;
+        height: 207.41px;
+    }
+
+    .brect1 {
+        width: 100%;
+        height: 100px;
+        background: #4F3084;
+        margin-top: 75px;
+    }
+
+    .grp7 {
+        height: 150px;
+        width: 50%;
+        position: relative;
+        top: -25px;
+        left: -35px;
+    }
+
+    .prolbl {
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .extlbl {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        color: #FFFFFF;
+        position: relative;
+        top: -20px;
+    }
+
+    .yrect {
+        height: 66px;
+        width: 100%;
+        background: #FAB516;
+        cursor: pointer;
+    }
+
+    .Extlbl {
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .yourlbl {
+        font-family: 'Gloria Hallelujah';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 16px;
+        color: #000000;
+    }
+
+    .sub {
+        height: 4px;
+        width: 20px;
+    }
+
+    .addimg {
+        width: 15px;
+        height: 15px;
+    }
+    .grp8 {
+        height: 180px;
+        width: 50%;
+
+    }
+    .conBg {
+        height: 300px;
+        width: 100%;
+        background: rgba(79, 48, 132, 0.1);
+    }
+    .grp8lbl {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .listlbl {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 196.5%;
+        color: #000000;
+    }
+    .pplbl {
+
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+
+        color: #000000;
+        margin-left: 25px;
+        margin-top: 16px;
+    }
+    .carview {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 200px;
+        height: 200px;
+        /* background: #FFFFFF; */
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 24px;
+        cursor: pointer;
+    }
+    .cardlbl1 {
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 67% */
+        letter-spacing: 0.5px;
+        color: #000000;
+
+    }
+    .cardlbl2 {
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #040404;
+
+        margin-left: 30px;
+    }
+    .subslbl {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 8px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1px;
+
+        color: #FFFFFF;
+    }
+    .tblHead {
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #000000;
+    }
+    .tbllbl {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+        margin-left: 00px;
+    }
+    .tbllbl1 {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 10px;
+        text-align: center;
+
+        color: #000000;
+    }
+    .wroimg {
+        height: 9px;
+        width: 9px;
+    }
+    .corrimg {
+        height: 8px;
+        width: 10px;
+    }
+    .finlbl {
+        font-family: 'Rota';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        /* line-height: 30px; */
+        text-align: center;
+
+        color: #000000;
+
+    }
+}
