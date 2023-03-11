@@ -11,6 +11,7 @@ import Rating from './Rating';
 import Contact from './Contact';
 import GiftCards from './GiftCards';
 import SpinWin from './SpinWin';
+import SignUp from './Signup';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Route path='/contact' element={<Contact />} />
       <Route path='/giftcards' element={<GiftCards />} />
       <Route path='/spinandwin' element={<SpinWin />} />
+      <Route path='/signup' element={<SignUp />} />
       </Routes> 
     </>
   );
